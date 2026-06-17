@@ -1,4 +1,4 @@
-# kalli-cam
+# kali_cam
 Facial recognition security camera with motion detection and push notifications
  A lightweight facial recognition security camera built with Python, OPenCV
  and face_recognition. Detects motion, identifies known faces, and sends
