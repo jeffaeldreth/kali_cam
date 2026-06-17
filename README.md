@@ -10,6 +10,7 @@ Facial recognition security camera with motion detection and push notifications
  - Push notifications via ntfy.sh
  - Headless operation
  - Runs as a systemd service at boot
+ - Runs in silent mode without warnings
 
   ## Harware
   - Any UVC compatible webcam (tested with Logitech C170)
@@ -30,3 +31,5 @@ Facial recognition security camera with motion detection and push notifications
   3. Replace "Jeff" with the person's name
   4. Replace "jeffskalicam" with your ntfy.sh topic name
   5. Run: python3 kali_cam.py
+  6. If you want to print warnings uncomment all the print statements
+  7. The head display has been commented out as well and was left in to uncomment if needed for debugging purposes
